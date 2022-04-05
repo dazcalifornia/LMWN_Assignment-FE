@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;500&display=swap");
+body {
+  font-family: "Prompt", sans-serif;
+  background-color: #f8f8f8;
+  font-style: normal;
+  font-weight: 200;
+  padding: 2rem 0.5rem;
+  color: #32325d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+}
+a:link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 125%;
+  padding-bottom: 1px;
+}
+
+a.first:after {
+  left: 0;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  transition: 0.5s color ease;
+  text-decoration: none;
+  color: #81b3d2;
+}
+a:hover {
+  color: #d73444;
+}
+
+.show {
+  font-size: medium;
+  color: darkblue;
+}
+span.show:hover {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  transition: 0.5s color ease;
+  text-decoration: none;
+  color: #d73444;
+}
+.wrapper {
+  margin: 3em 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.container:after {
+  display: block;
+  margin: 23px;
+  flex: 999 999 auto;
+}
+.item {
+  flex: 1 0 auto;
+  padding: auto;
+  margin: 23px;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+.card-title {
+  font-weight: 500;
+  line-height: 1.1em;
+  color: #32325d;
+  margin-bottom: 0.2em;
+}
+
+
+.card-img {
+  margin-bottom: 1rem;
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
